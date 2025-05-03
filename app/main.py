@@ -2,8 +2,8 @@
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from app.pdf_utils import extract_text_from_pdf
-from app.model import summarize_text
+from pdf_utils import extract_text_from_pdf
+from model import summarize_text
 
 app = FastAPI()
 

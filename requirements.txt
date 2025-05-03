@@ -6,3 +6,4 @@ pymupdf
 streamlit
 requests
 pyngrok
+python-multipart
